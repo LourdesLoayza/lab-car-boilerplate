@@ -20,7 +20,8 @@
 .text-1 {
   font-size: 1em;
   font-weight: bold;
-  box-sizing: border-box
+  box-sizing: border-box;
+  text-align: justify
 }
 
 /* Nav styles - Changing bootstrap styles*/
@@ -59,8 +60,6 @@
 
 /* Section 1 styles - Changing bootstrap styles*/
 .sect-1-cont{
-  
-
   background-image: url(../assets/images/taxi.jpg);
   background-size: cover;
   background-origin:border-box;
@@ -71,7 +70,7 @@
   box-sizing: border-box;
   background-color: #f7b617;
   margin-top: 100px;
-  margin-bottom: 0px;
+  margin-bottom: 100px;
   padding-left: 40px
 }
 
@@ -79,7 +78,6 @@
 .sect-2-cont{
   box-sizing: border-box;
   background-color: #f7b617;
-  height: 531px;
 }
 
 .sect-2-cont > .jumbotron {
@@ -87,12 +85,13 @@
   box-sizing: border-box;
   background-color: #f7b617;
   border: 1px solid #fff;
-  margin-bottom: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 40px
 }
 
 /* Section 3 styles*/
 .sect-3-cont{
-  height: 446px;
   box-sizing: border-box;
   background-image: url(../assets/images/conduce.jpg);
   background-size: cover;
@@ -101,14 +100,41 @@
 }
 
 .sect-3-cont > .jumbotron {
-  height: 446px;
+  height: inherit;
   box-sizing: border-box;
   background-color: black;
   opacity: 0.6;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 40px
 }
 
 .btn-warning {
   color: #fff;
   background-color: #f7b617;
   border-color: #f7b617;
+}
+
+/* Section 4 styles*/
+.sect-4-cont{
+  box-sizing: border-box;
+  background-color: #f7b617;
+}
+
+.sect-4-cont> .jumbotron {
+  box-sizing: border-box;
+  background-color: #f7b617;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 40px
+}
+
+/* Footer styles*/
+.footer-cont{
+  height: 446px;
+  box-sizing: border-box;
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-origin:border-box;
+  background-position: 50% 50%;
 }
