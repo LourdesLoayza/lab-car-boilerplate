@@ -53,7 +53,35 @@
         <img src="assets/images/logoBlanco.png" alt="Logo Lab-<ar Blanco">
       </h3>
       <p>
-        <a class="btn btn-default btn-lg" href="#" role="button">REGÍSTRATE</a>
+        <a class="btn btn-default btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">REGÍSTRATE</a>
+
+        <!-- Modal registrate -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content registrate-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">REGÍSTRATE</h4>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group"> 
+                    <label>Username</label>
+                    <input class="form-control" placeholder="Username">
+                  </div>
+                  <div class="form-group">
+                    <label>Password</label>
+                    <input class="form-control" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-default">LOGING</button>
+                </form>
+                <a href="#forgotPassword">Click Here</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </p>
       <p class="text-2">O bien</p>
       <p>
@@ -119,15 +147,20 @@
   </section>
   <!-- Section 4 (Desktop & Mobile) -->
   <section class="row sect-4-cont">
-    <div class="row jumbotron col-xs-12 col-sm-10 col-md-11 col-md-offset-1">
+    <div class="row jumbotron col-xs-11 col-xs-offset-1 col-sm-11 col-sm-offset-1 col-md-7 col-md-offset-1">
       <h2 class="title-1">Tarifas.
         <br>Consulta las tarifas LabCar aqui</h2>
       <br>
       <a class="btn btn btn-warning btn-lg" href="#" role="button">Ingrese sus puntos de partida</a>
       <br>
+      <br>
       <a class="btn btn btn-warning btn-lg" href="#" role="button">Ingrese su destino</a>
-      <img src="assets/images/mapa.png" alt="Mapa geolocalización" class="img-responsive col-md-6">
+      <br>
+      <br>
+      <a class="btn btn-default btn-lg" href="#" role="button">¡TRAZAR RUTA!</a>
     </div>
+    <br>
+    <img src="assets/images/mapa.png" alt="Mapa geolocalización" class="img-responsive col-xs-11 col-sm-11 col-md-4">
   </section>
   <!-- Footer hidden xs for mobile (Desktop) -->
   <footer class="row footer-cont">
@@ -159,7 +192,7 @@
         <img src="assets/images/enBadgeWebGeneric.png" alt="App Store">
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12">
-          <hr>
+        <hr>
         <i class="fa fa-facebook"></i>
         <i class="fa fa-twitter"></i>
         <i class="fa fa-linkedin"></i>
