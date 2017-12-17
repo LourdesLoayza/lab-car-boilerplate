@@ -38,12 +38,43 @@
             <a href="#">Conduce</a>
           </li>
           <li>
-            <a href="#">Inicia sesión</a>
+            <a href="#" role="button" data-toggle="modal" data-target="#modal_login">Inicia sesión</a>
           </li>
         </ul>
       </div>
     </section>
   </nav>
+
+  <!-- Section Modal lOGING -->
+  <section>
+
+    <div class="modal fade" id="modal_login" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content inicia sesión-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">LOGING</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label>Username</label>
+                <input class="form-control" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input class="form-control" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-default">LOGING</button>
+            </form>
+            <a href="#forgotPassword">Click Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Section 1 hidden xs for mobile (Desktop) -->
   <section class="row sect-1-cont hidden-xs">
     <div class="row jumbotron col-sm-6 col-sm-offset-6 col-md-7 col-md-offset-5">
@@ -53,39 +84,11 @@
         <img src="assets/images/logoBlanco.png" alt="Logo Lab-<ar Blanco">
       </h3>
       <p>
-        <a class="btn btn-default btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">REGÍSTRATE</a>
-
-        <!-- Modal registrate -->
-        <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content registrate-->
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">REGÍSTRATE</h4>
-              </div>
-              <div class="modal-body">
-                <form>
-                  <div class="form-group"> 
-                    <label>Username</label>
-                    <input class="form-control" placeholder="Username">
-                  </div>
-                  <div class="form-group">
-                    <label>Password</label>
-                    <input class="form-control" placeholder="Password">
-                  </div>
-                  <button type="submit" class="btn btn-default">LOGING</button>
-                </form>
-                <a href="#forgotPassword">Click Here</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <a class="btn btn-default btn-lg" href="#" role="button" data-toggle="modal" data-target="#modal_register">REGÍSTRATE</a>
       </p>
       <p class="text-2">O bien</p>
       <p>
-        <a class="btn btn-default btn-lg" href="#" role="button">Conviértete en un conductor</a>
+        <a class="btn btn-default btn-lg" href="#" role="button" data-toggle="modal" data-target="#modal_become_driver">Conviértete en un conductor</a>
       </p>
     </div>
   </section>
@@ -101,6 +104,65 @@
       </p>
     </div>
   </section>
+
+  <!-- Section Modal REGISTER -->
+  <section>
+    <div class="modal fade" id="modal_register" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content inicia sesión-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">REGISTER</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label>Username</label>
+                <input class="form-control" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input class="form-control" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-default">LOGING</button>
+            </form>
+            <a href="#forgotPassword">Click Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Section Modal BECOME DRIVER -->
+    <section>
+        <div class="modal fade" id="modal_become_driver" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content inicia sesión-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">BECOME DRIVER</h4>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label>Username</label>
+                    <input class="form-control" placeholder="Username">
+                  </div>
+                  <div class="form-group">
+                    <label>Password</label>
+                    <input class="form-control" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-default">LOGING</button>
+                </form>
+                <a href="#forgotPassword">Click Here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
   <!-- Section 2 hidden xs for mobile (Desktop) -->
   <section class="row sect-2-cont hidden-xs">
     <div class="jumbotron col-sm-7 col-md-9">
