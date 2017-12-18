@@ -149,3 +149,12 @@
   margin-bottom: 10px;
   padding-left: 40px
 }
+
+.footer-cont > div >  ul > li {
+  text-decoration: none;
+  list-style: none;
+  line-height: 2em;
+}
+
+
+
